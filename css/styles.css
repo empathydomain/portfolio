@@ -299,6 +299,11 @@ a {
     text-decoration: none;
     color: black;
 }
+a:hover {
+    text-decoration: none;
+
+    color: #F17312;
+}
 
 hr {
     opacity: 1;
@@ -380,8 +385,21 @@ hr {
 .mid-p {
     position: absolute;
     z-index: 3;
-    top: 20%;
+    top: 15%;
     left: 8%;
+    color: white;
+}
+
+
+
+.ul2 {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    width: 25vw;
+    z-index: 3;
+    top: 95vh;
+    left: 68vw;
     color: white;
 }
 
@@ -390,7 +408,7 @@ ul {
 
     position: absolute;
     z-index: 3;
-    top: 20%;
+    top: 15%;
     left: 8%;
     color: white;
 }
@@ -545,6 +563,16 @@ ul {
         z-index: 2;
         height: 240vh;
         width: 100vw;
+    }
+    .ul2 {
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        width: 25vw;
+        z-index: 3;
+        top: 20vh;
+        left: 68vw;
+        color: white;
     }
     .calebdiv {
         display: block;
@@ -706,6 +734,16 @@ ul {
         height: 240vh;
         width: 100vw;
     }
+    .ul2 {
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        width: 75vw;
+        z-index: 3;
+        top: 170vh;
+        left: 20vw;
+        color: white;
+    }
     .calebdiv {
         display: block;
         position: absolute;
@@ -854,4 +892,16 @@ ul {
     left: 8%;
     z-index: 3;
 }
+}
+
+/* BOTTOM DIV */
+
+#bottom {
+    padding-top: 5%;
+    position: relative;
+    z-index: 4;
+    bottom: 40vh;
+    height: 180vh;
+    width: 100vw;
+    background-color: #F17312;
 }
